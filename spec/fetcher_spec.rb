@@ -28,6 +28,7 @@ RSpec.describe S3Toolkit::Fetcher do
 
   context 'files already exist' do
     before do
+      FileUtils.mkdir_p('tmp')
       FileUtils.touch('tmp/file1.txt')
       FileUtils.touch('tmp/file2.txt')
     end
