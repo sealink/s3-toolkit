@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
-require 'support/coverage_loader'
-require 's3_toolkit'
-require 'pry'
-
+require "support/coverage_loader"
+require "s3_toolkit"
+require "pry"
 
 RSpec.configure do |config|
   # RSPEC 4 Defaults

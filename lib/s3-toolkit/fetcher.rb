@@ -23,8 +23,8 @@ module S3Toolkit
             next unless !File.exist?(destination) || overwrite
 
             puts "download #{s3_url}/#{base_name} to #{destination}"
-            File.open(destination, 'wb') do |file|
-              resp = s3.get_object({ bucket: bucket, key: download }, target: file)
+            File.open(destination, "wb") do |file|
+              resp = s3.get_object({bucket: bucket, key: download}, target: file)
               files += 1
             end
           end

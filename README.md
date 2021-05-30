@@ -1,3 +1,4 @@
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/testdouble/standard)
 [![Gem Version](https://badge.fury.io/rb/s3-toolkit.svg)](http://badge.fury.io/rb/s3-toolkit)
 [![Build Status](https://github.com/sealink/s3-toolkit/workflows/Build%20and%20Test/badge.svg?branch=master)](https://github.com/sealink/s3-toolkit/actions)
 [![Coverage Status](https://coveralls.io/repos/sealink/s3-toolkit/badge.svg)](https://coveralls.io/r/sealink/s3-toolkit)
