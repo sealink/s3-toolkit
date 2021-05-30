@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'dry-cli'
 
   spec.add_development_dependency 'coverage-kit'
-  spec.add_development_dependency 'coveralls'
+  spec.add_development_dependency 'coveralls_reborn'
   spec.add_development_dependency 'nokogiri'
   spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'rspec'
