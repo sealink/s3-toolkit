@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
-
 RSpec.describe S3Toolkit::UrlParser do
   let(:expected_error) { 'Unexpected format, expected: s3://<bucket>/<key>' }
   subject { described_class.call(s3_url) }

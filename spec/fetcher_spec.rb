@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
-
 RSpec.describe S3Toolkit::Fetcher do
   let(:request_concurrency) { 5 }
   let(:region) { 'ap-southeast-2' }

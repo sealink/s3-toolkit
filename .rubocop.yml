@@ -18,4 +18,4 @@ Metrics/CyclomaticComplexity:
   Max: 8
 
 Metrics/ParameterLists:
-  Max: 6
+  CountKeywordArgs: false

@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
-
 RSpec.describe S3Toolkit::Commands do
   context 'Fetcher' do
     let(:fetcher_class) { double('FetcherClass') }
