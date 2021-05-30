@@ -1,3 +1,7 @@
+[![Gem Version](https://badge.fury.io/rb/s3-toolkit.svg)](http://badge.fury.io/rb/s3-toolkit)
+[![Build Status](https://github.com/sealink/s3-toolkit/workflows/Build%20and%20Test/badge.svg?branch=master)](https://github.com/sealink/s3-toolkit/actions)
+[![Coverage Status](https://coveralls.io/repos/sealink/s3-toolkit/badge.svg)](https://coveralls.io/r/sealink/s3-toolkit)
+
 ## Purpose
 
 This provides a simple way to fetch files from an s3 bucket using the AWS Ruby SDK.
