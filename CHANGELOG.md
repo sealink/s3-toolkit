@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## 0.2.0
 
 - [PLAT-147] Remove any double slash from the url
 
