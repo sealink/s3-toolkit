@@ -7,7 +7,7 @@ module S3Toolkit
 
       uri = URI.parse(s3_url)
       bucket = uri.host
-      key = uri.path[1..] # Strip the leading /
+      key = uri.path.squeeze("/")[1..] # Strip the leading / and any double //
 
       [bucket, key]
     end
