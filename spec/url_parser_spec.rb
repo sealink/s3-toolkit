@@ -9,7 +9,7 @@ RSpec.describe S3Toolkit::UrlParser do
     it { is_expected.to eq ["some-bucket", "some-prefix/nested"] }
   end
 
-  context 'removes double slash' do
+  context "removes double slash" do
     let(:s3_url) { "s3://some-bucket//some-prefix//nested" }
     it { is_expected.to eq ["some-bucket", "some-prefix/nested"] }
   end
