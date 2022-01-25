@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## 0.3.0
 
 - [PLAT-183] Use github action in place of coveralls gem, build against ruby 3.1
 
